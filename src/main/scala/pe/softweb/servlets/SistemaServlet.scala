@@ -2,7 +2,7 @@ package pe.softweb.servlets
 
 import org.scalatra._
 
-class AppServlet extends ScalatraServlet {
+class SistemaServlet extends ScalatraServlet {
 
   get("/") {
     views.html.hello()
@@ -11,6 +11,6 @@ class AppServlet extends ScalatraServlet {
   get("/hello/:name") {
 	  // Matches "GET /hello/foo" and "GET /hello/bar"
 	  // params("name") is "foo" or "bar"
-	  <p>Hello, {params("name")}</p>
+	  <p>Hello Sistema, {params("name")}</p>
 	}
 }
