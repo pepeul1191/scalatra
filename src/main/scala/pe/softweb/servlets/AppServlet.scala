@@ -1,4 +1,4 @@
-package pe.softweb.app
+package pe.softweb.servlets
 
 import org.scalatra._
 
